@@ -1,0 +1,7 @@
+code: "1",answer: "A"
+code: "2",answer: "D"
+code: "3",answer: "A"
+code: "4",answer: "D"
+code: "5",answer: "B"
+code: "6",answer: "C"
+code: "7",answer: "B"

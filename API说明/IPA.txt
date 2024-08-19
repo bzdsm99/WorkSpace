@@ -1,0 +1,59 @@
+API信息
+请求地址: https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions_pro
+API Key: uAhrq0GwelKK5F0tyonojc9w
+Secret Key: vpHMPK25EAbp2Pac5SA8O9TkD2rCVi1U
+模型名称: ERNIE-4.0-8K
+应用名称: 作业问题回答
+网络名称: ernieBot_4
+
+AppID:70515018
+API Key	: uAhrq0GwelKK5F0tyonojc9w	
+Secret Key : vpHMPK25EAbp2Pac5SA8O9TkD2rCVi1U
+
+
+API_KEY = "uAhrq0GwelKK5F0tyonojc9w"
+SECRET_KEY = "vpHMPK25EAbp2Pac5SA8O9TkD2rCVi1U"
+
+
+https://aip.baidubce.com/oauth/2.0/token
+请求：
+header:
+{
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+}
+
+query:
+{
+    "client_id": "uAhrq0GwelKK5F0tyonojc9w",
+    "client_secret": "vpHMPK25EAbp2Pac5SA8O9TkD2rCVi1U"
+}
+
+
+
+
+
+
+
+响应：
+header:
+{
+    "Cache-Control": "no-store",
+    "Content-Type": "application/json",
+    "Date": "Tue, 14 May 2024 05:10:49 GMT",
+    "P3p": "CP=\" OTI DSP COR IVA OUR IND COM \"",
+    "Server": "Apache",
+    "Vary": "Accept-Encoding"
+}
+
+body:
+{
+    "refresh_token": "25.ee030e3309c5567d09c17332867536ee.315360000.2031023449.282335-70515018",
+#有效期： 
+    "expires_in": 2592000,
+    "session_key": "9mzdWEMehLQ/P0mPNCg08LMjX5eodcPIWuW51nFMjhh/e5vUYsF2d6+cqCnnwaRd3Br9Uv7JH+fjbO2xCU0dMKwYpOy6aA==",
+###： 
+    "access_token": "24.c302b1522bac832f428f3bfca35a5640.2592000.1718255449.282335-70515018",
+    "scope": "public ai_custom_qianfan_bloomz_7b_compressed ai_custom_yiyan_com ai_custom_yiyan_com_ai_apaas ai_custom_yiyan_com_aquilachat_7b ai_custom_yiyan_com_bce_reranker_base ai_custom_yiyan_com_bloomz7b1 ai_custom_yiyan_com_chatglm2_6b_32k ai_custom_yiyan_com_chatlaw ai_custom_yiyan_com_codellama_7b_ins ai_custom_yiyan_com_eb_instant ai_custom_yiyan_com_eb_pro ai_custom_yiyan_com_eb_pro_prmtv ai_custom_yiyan_com_eb_turbo_pro ai_custom_yiyan_com_eb_turbo_pro_128k ai_custom_yiyan_com_emb_bge_large_en ai_custom_yiyan_com_emb_bge_large_zh ai_custom_yiyan_com_emb_tao_8k ai_custom_yiyan_com_emb_text ai_custom_yiyan_com_ernie_35_4k_0205 ai_custom_yiyan_com_ernie_35_8k_0205 ai_custom_yiyan_com_ernie_35_8k_0329 ai_custom_yiyan_com_ernie_35_8k_1222 ai_custom_yiyan_com_ernie_35_8k_preview ai_custom_yiyan_com_ernie_40_8k_0104 ai_custom_yiyan_com_ernie_40_8k_0329 ai_custom_yiyan_com_ernie_40_8k_preview ai_custom_yiyan_com_ernie_char_8k ai_custom_yiyan_com_ernie_func_8k ai_custom_yiyan_com_ernie_lite_8k ai_custom_yiyan_com_ernie_tiny_8k ai_custom_yiyan_com_fuyu_8b ai_custom_yiyan_com_gemma_7b_it ai_custom_yiyan_com_llama2_13b ai_custom_yiyan_com_llama2_70b ai_custom_yiyan_com_llama2_7b ai_custom_yiyan_com_llama3_70b ai_custom_yiyan_com_llama3_8b ai_custom_yiyan_com_mixtral_8x7b ai_custom_yiyan_com_prmtv ai_custom_yiyan_com_qf_chinese_llama_2_13b ai_custom_yiyan_com_qianfan_chinese_llama_2_7b ai_custom_yiyan_com_sd_xl ai_custom_yiyan_com_sqlcoder_7b ai_custom_yiyan_com_tokenizer_eb ai_custom_yiyan_com_xuanyuan_70b_chat ai_custom_yiyan_com_yi_34b brain_all_scope wenxinworkshop_mgr wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian ApsMisTest_Test权限 vis-classify_flower lpq_开放 cop_helloScope ApsMis_fangdi_permission smartapp_snsapi_base smartapp_mapp_dev_manage iop_autocar oauth_tp_app smartapp_smart_game_openapi oauth_sessionkey smartapp_swanid_verify smartapp_opensource_openapi smartapp_opensource_recapi fake_face_detect_开放Scope vis-ocr_虚拟人物助理 idl-video_虚拟人物助理 smartapp_component smartapp_search_plugin avatar_video_test b2b_tp_openapi b2b_tp_openapi_online smartapp_gov_aladin_to_xcx",
+    "session_secret": "c7877b9658bd9ea0ad8d9bfc821b53d8"
+}
